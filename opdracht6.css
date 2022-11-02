@@ -1,0 +1,72 @@
+* {
+    font-family: "Courier New", monospace;
+}
+
+body {
+    width: 1000px;
+}
+
+header {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+main {
+    padding: 30px;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+/*Tabel voor Logo*/
+#logo {
+    width: 700px;
+    border-collapse: collapse;
+}
+
+#logo tbody tr th {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#logored {
+    background-color: #DF0024;
+}
+
+#logoyellow {
+    background-color: #F3C300;
+}
+
+#logogreen {
+    background-color: #00AC9F
+}
+
+#logoblue {
+    background-color: #2E6DB4;
+}
+
+#fotoconsole {
+    width: 700px;
+    padding: 20px;
+}
+
+/*Tabel voor Buttons*/
+#buttons{
+    width: 500px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#buttons thead tr th{
+    background-color:#F3C300;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#buttons tbody tr td{
+    border: 2px solid black;
+    padding: 5px;
+}

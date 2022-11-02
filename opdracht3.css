@@ -1,0 +1,52 @@
+* {
+    font-family: Calibri, sans-serif;
+    padding: 5px;
+    color: ghostwhite;
+}
+
+table {
+    background-color: black;
+    width: 600px;
+    border: 3px solid red;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+table thead tr th {
+    border: 2px solid ghostwhite;
+}
+
+table thead tr th:first-child {
+    text-align: left;
+    font-size: 20pt;
+}
+
+table thead tr th span {
+    color: red;
+}
+
+table tbody tr td {
+    border: 2px solid ghostwhite;
+}
+
+table tbody tr:nth-child(2) {
+    color: red;
+}
+
+table tfoot tr th {
+    border: 2px solid ghostwhite;
+}
+
+a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+img{
+    width: 300px;
+}

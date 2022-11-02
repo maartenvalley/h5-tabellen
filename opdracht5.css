@@ -1,0 +1,41 @@
+*{
+    font-family: arial, sans-serif;
+}
+
+/* Opmaak per structuurelement*/
+
+/* Opmaak header*/
+body{
+    background-image: url(assets/hout.jpg);
+}
+
+header{
+    background-image: url(assets/witte-marmer.jpg);
+    width: 600px;
+    padding: 10px;
+    border: 5px solid #4b0000;
+    color: #4b0000;
+}
+
+/* Opmaak tabel*/
+main{
+    padding-top: 20px;
+}
+main table{
+    border-collapse: collapse;
+    border: 5px solid #4b0000;
+}
+
+main table tr td{
+    border: 2px solid #4b0000;
+    width: 60px;
+    height: 60px;
+    background-image: url(assets/witte-marmer.jpg);
+}
+main table tr td img{
+    margin: 20px;
+}
+
+main table tr th{
+    background-image: url(assets/zwarte-marmer.jpg);
+}

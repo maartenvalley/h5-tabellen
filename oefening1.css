@@ -1,0 +1,9 @@
+*{
+    font-family: arial, verdana, sans-serif;
+}
+
+table{
+    border: 2px solid hotpink;
+    width: 500px;
+    table-layout: fixed;
+}
